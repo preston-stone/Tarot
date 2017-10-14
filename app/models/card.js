@@ -332,8 +332,8 @@
       name: numeralize(number) + " of Cups",
       suite: "cups",
       image: 'deck/Cups' + image_string + '.jpg',
-      description: wands[number.toString() + "A"],
-      interpretation: wands[number.toString() + "B"]
+      description: cups[number.toString() + "A"],
+      interpretation: cups[number.toString() + "B"]
     });
   };
   for (number = 1; number <= 14; number++) {
@@ -346,8 +346,8 @@
       name: numeralize(number) + " of Wands",
       suite: "cups",
       image: 'deck/Wands' + image_string + '.jpg',
-      description: cups[number.toString() + "A"],
-      interpretation: cups[number.toString() + "B"]
+      description: wands[number.toString() + "A"],
+      interpretation: wands[number.toString() + "B"]
     });
   };
   for (number = 1; number <= 14; number++) {
